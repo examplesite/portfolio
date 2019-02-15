@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+section {
+  
+}
+
+/*---HEADER---*/
+
+header {
+  background-color: #cc0000;
+
+}
+
+header nav {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-nav li{
+  margin-left: 1.2rem;
+  display: inline-block;
+}
+
+/*---FRONT-PAGE---*/
+
+.front-page {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/web-development.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 85vh;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  max-width: 800px;
+}
+
+.basic-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#arafat-img {
+  width: 200px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.info {
+  align-self: center;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.email {
+  font-size: 1rem;
+}
+
+.about {
+  text-align: justify;
+}
